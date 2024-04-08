@@ -9,6 +9,8 @@
 <body>
     <h1>Usuários</h1>
 
+    <a href="{{ route('users.create') }}">Novo</a>
+
     <table>
         <thead>
             <tr>
